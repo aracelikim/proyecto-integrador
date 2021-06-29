@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Poppins:ital,wght@1,600&family=ZCOOL+KuaiLe&display=swap');
+*{margin:0; padding: 0;}
+
+html{font-family: 'Lato', sans-serif;font-family: 'Montserrat', sans-serif;font-family: 'Poppins', sans-serif;font-family: 'ZCOOL KuaiLe', cursive;}
+
+body{background-color: #99c675; text-align: center;}
+
+h1{text-align: center;padding: 50px;font-family: 'ZCOOL KuaiLe', cursive;font-size: 50px;animation-name: text;animation-duration: 3s;animation-delay: 0s;animation-fill-mode: forwards; }
+
+.planeta{width: 15%; height: 10%; display: block; margin:auto; padding: 10px;  position: relative; margin-bottom: 20px; top:20px;animation-name: planeta;animation-duration: 5s;}
+
+p{text-align: center; font-size: 45px;padding: 15px;font-family: 'ZCOOL KuaiLe', cursive;animation-name: text2;animation-duration: 3s;animation-delay: 0s;animation-fill-mode:forwards;}
+
+h2{text-align: center;font-family: 'Montserrat', sans-serif; font-size: 30px;padding: 20px;}
+
+.boton{font-size: 20px;background-color:#4e87cc; color: antiquewhite;border-radius: 6px; position: absolute;animation-name: boton; animation-duration: 5s;text-decoration: none;transition: 1.5s; font-family:  'Poppins', sans-serif;left: 0;right: 0; margin-left: auto; margin-right: auto; width: 200px;}
+
+.boton:hover{transform:scale(1.25);transition: 1s; background-color: whitesmoke; color: black;}
+
+@keyframes boton{
+	0%{color: transparent; background-color:transparent;}
+}
+
+@keyframes text{
+   0%{transform: translateX(-500px);color: transparent;}
+	100%{transform: translateX(0px);}
+	}
+@keyframes text2{
+   0%{transform: translateX(-80px);color: transparent;}
+	100%{transform: translateX(0px);}	
+}
+
+@keyframes planeta{
+    0%{opacity: 0;}
+    100%{opacity: 100%;}
+}
